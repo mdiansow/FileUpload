@@ -4,6 +4,12 @@
 
 	<display-name>File Upload</display-name>
 
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<jsp-file>/login.jsp</jsp-file>
+	</servlet>
+
+
 	<welcome-file-list>
 		<welcome-file>login.html</welcome-file>
 		<welcome-file>login.jsp</welcome-file>

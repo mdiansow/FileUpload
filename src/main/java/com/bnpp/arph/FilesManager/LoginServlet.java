@@ -59,7 +59,7 @@ public class LoginServlet extends HttpServlet {
 			HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		if (session.getAttribute("user") != null) {
-			response.sendRedirect("/upload");
+			response.sendRedirect("/FileUpload.jsp");
 		} else {
 			response.sendRedirect("login.jsp");
 		}
