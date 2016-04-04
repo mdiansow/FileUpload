@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Built-by: mdiansow
+Built-Jdk: 1.7.0_79
+Class-Path: lib/
