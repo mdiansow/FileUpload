@@ -5,8 +5,8 @@
 <meta charset="utf-8">
 <title>Login Page</title>
 <link rel="stylesheet"
-	href="./bootstrap-3.3.6-dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="./css/style.css">
+	href="<%=request.getContextPath()%>bootstrap-3.3.6-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>css/style.css">
 </head>
 <body>
 	<div class="container">

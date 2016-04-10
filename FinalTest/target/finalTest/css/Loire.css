@@ -1,0 +1,146 @@
+body {
+	background-color: White;
+	font-family: Arial;
+	font-size: smaller;
+}
+
+P {
+	font-family: Arial;
+	font-size: smaller;
+}
+
+TD {
+	font-family: Arial;
+	font-size: smaller;
+}
+
+.MenuBouton {
+	color: Blue;
+	width: 300;
+	font-weight: bold;
+	text-align: center;
+}
+
+.OkBouton {
+	color: Green;
+	width: 87;
+	font-weight: bold;
+}
+
+.AnnulerBouton {
+	color: Red;
+	width: 87;
+	font-weight: bold;
+}
+
+.barreDeTitre {
+	font-family: Times New Roman;
+	font-style: italic;
+	font-size: small;
+	background-color: Navy;
+	height: 12px;
+	color: White;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+}
+
+.MenuTable {
+	width: 100%;
+	height: 40px;
+	background-image: URL(images/fondMenu.GIF);
+}
+
+.MCE {
+	width: 70px;
+	height: 30px;
+	color: Black;
+	background-color: LightGray;
+	font-family: Arial;
+	font-size: x-small;
+}
+
+.MCD {
+	width: 70px;
+	height: 30px;
+	color: Black;
+	background-color: LightGray;
+	font-family: Arial;
+	font-size: smaller;
+}
+
+.PageSousTitre {
+	width: 100%;
+	height: 40px;
+	color: Black;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: larger;
+	font-style: italic;
+}
+
+.Label {
+	font-family: Times New Roman;
+	font-style: italic;
+	font-size: medium;
+	color: Black;
+}
+
+.MenuTablePrint {
+	display: none;
+	width: 100%;
+	height: 40px;
+	background-image: URL(images/fondMenu.GIF);
+}
+
+.PrintCellHeader {
+	border-style: solid;
+	border-color: Black;
+	border-width: 1;
+	font-family: Courier;
+	font-size: small;
+}
+
+.PrintCell {
+	border-style: solid;
+	border-color: Black;
+	border-width: 1;
+	font-family: Courier;
+	font-size: small;
+	border-top-style: none;
+}
+
+.PrintCellBottom {
+	border-style: solid;
+	border-color: Black;
+	border-width: 1;
+	font-family: Courier;
+	font-size: small;
+	border-top-style: none;
+}
+
+.PrintCellLigne {
+	border-style: none;
+	font-family: Courier;
+	font-size: small;
+}
+
+.PrintCellEntete {
+	border-style: solid;
+	font-family: Courier;
+	font-size: small;
+	background-color: LightGray;
+}
+
+.listeCell {
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-bottom-width: 1;
+}
+
+.Version {
+	cursor: hand;
+	text-align: center;
+}

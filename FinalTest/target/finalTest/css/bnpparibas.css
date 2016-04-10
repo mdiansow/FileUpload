@@ -1,0 +1,820 @@
+/****************************************
+ * Redefinition des styles HTML de base *
+ ***************************************/
+body    {
+	background-color: White;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	scrollbar-face-color: #7FBDA9;
+	scrollbar-shadow-color: #ffffff;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-3dlight-color: #fffff;
+	scrollbar-darkshadow-color: #007c54;
+	scrollbar-track-color: #ffffff;
+	scrollbar-arrow-color: #007c54;
+	font-family: Arial;
+	font-size: ;
+	font-style: normal;
+	font-weight: normal;
+	color: Black;
+	overflow: auto;
+
+}
+
+/**********************************
+ * Definition styles LST *
+ *********************************/
+
+th { font-family: Arial; font-size: 80%; background-color: #007c54; color: #FFFFFF }
+.lstPairRow { font-family: Arial; font-size: 80%; background-color: lightGrey }
+.lstImpairRow { font-family: Arial; font-size: 80%; }
+.lstTd { font-family: Arial; font-size: 80%; text-align: center;}
+
+.anchorClass
+{
+	cursor:hand;
+	font-family:Arial;
+	font-size:11;
+	color:black;
+	text-decoration:none;
+}
+
+.anchorClass:hover
+{
+	cursor:hand;
+	font-family:Arial;
+	font-size:11;
+	font-weight:600;
+	color:midnightblue;
+	text-decoration:none;
+}
+
+.anchorMenu
+{
+	cursor:hand;
+	font-family:Arial;
+	font-size:14;
+	color:black;
+}
+
+.currentMenu    {
+	color: #007B54;
+	font-size:14;
+}
+.boutonLogin {
+	border:solid 1px #007C54; 
+	color: #007C54;
+}
+
+/****************************
+ * ELEMENTS DE FORMULAIRES  *
+ ****************************/
+
+input {
+	font-family: Arial;
+	font-size: 80%;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+select {
+	font-family: Arial;
+	font-size: 80%;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.inputMAF {
+	font-family: Arial;
+	font-size: 80%;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.selectMAF {
+	font-family: Arial;
+	font-size: 80%;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+textarea {
+font-family: Arial;
+	font-size: 100%;
+	color: #000000;
+}
+
+.button {
+	margin-right: 3;
+	margin-left: 3;
+	font-family: Arial;
+	font-size: 100%;
+	color: black;
+	font-weight: bold;
+	background-color: #B2D7CB;
+	HEIGTH: 20px;
+}
+.sizedbutton {
+	margin-right: 3;
+	margin-left: 3;
+	font-family: Arial;
+	font-size: 100%;
+	color: black;
+	font-weight: bold;
+	background-color: #B2D7CB;
+	WIDTH: 72px;
+	HEIGTH: 20px;
+}
+
+.cnxButton {
+	margin-right: 3;
+	margin-left: 3;
+	font-family: Arial;
+	font-size:70%;
+	color: black;
+	font-weight: bold;
+	background-color: #B2D7CB;
+}
+
+/**********************************
+ * Definition des styles de texte *
+ *********************************/
+legend {
+	font-weight: bold;
+}
+
+.texteNormal    {
+	font-family: Arial;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	color: Black;
+}
+.textePetit    {
+	font-family: Arial;
+	text-align: center;
+	font-size: 80%;
+	font-style: normal;
+	font-weight: normal;
+	color: Black;
+}
+
+.texteNoir    {
+	color: Black;
+}
+
+.textBlanc    {
+	color: White;
+}
+
+.texteCouleur    {
+	color: #007B54;
+}
+
+.texteErreur    {
+	color: Red;
+}
+
+.texteTitre    {
+	font-family: Arial;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: bold;
+	color: #007B54;
+}
+.tableTitre    {
+	font-family: Arial;	
+	font-size: 80%;
+	font-style: normal;
+	float: center;
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	margin: 0em;
+	padding: 0.2em 1em;
+	border: 0px none #000000;
+	text-indent: 0pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	vertical-align: middle;
+}
+
+.sstitre    {
+	font-family: Arial;
+	font-size: 90%;
+	font-style: normal;
+	font-weight: bold;
+	color: #007B54;
+}
+
+.titretet    {
+	font-family: Arial;
+	font-size: 80%;
+	font-style: normal;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+.texttet    {
+	font-family: Arial;
+	font-size: 80%;
+	font-style: normal;
+	font-weight: bold;
+	color: #007B54;
+}
+
+.txtho    {
+	font-family: Arial;
+	font-size: 80%;
+	font-style: normal;
+	font-weight: normal;
+	color: #007B54;
+}
+
+.langues, .langues:visited, .langues:hover   {
+	font-family: Arial;
+	font-size: 80%;
+	font-weight: bold;
+	text-decoration: none;
+	color: #007C54;
+}
+
+.langues:hover {
+	font-family: Arial;
+	font-size: 80%;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #007C54;
+}
+
+.languesActif, .languesActif:visited, .languesActif:hover    {
+	font-family: Arial;
+	font-size: 80%;
+	font-weight: bold;
+	color: White;
+	text-decoration: none;
+	background-color: #007C54;
+}
+
+/**********************************
+ * Definition des styles de blocs *
+ *********************************/
+.blocContenu    {
+	font-size: 75%;
+	font-weight: normal;
+	margin-right: 5px;
+	margin-left: 10px;
+	margin-top: 30px;
+	font-family: Arial;
+
+}
+.blocContenuFieldset    {
+	font-size: 100%;
+	font-weight: normal;
+	margin-right: 5px;
+	margin-left: 10px;
+	margin-top: 30px;
+	font-family: Arial;
+	width: 80%;
+	float: center;
+	margin: 0em 0;
+
+}
+
+.blocSousTitreInterieur    {
+	position: absolute;
+	left: 15;
+	top: 140;
+	z-index: 0;
+	font-family: Arial; 
+	font-size:90%; 
+	font-style: normal; 
+	font-weight: bold; 
+	color: #007C54;
+}
+.blocContenuForm    {
+	font-size: 75%;
+	font-weight: normal;
+	margin-right: 5px;
+	margin-left: 10px;
+	margin-top: 30px;
+	font-family: Arial;
+	position: absolute;
+	width: 95%;
+
+}
+
+.blocContenuAccueil {
+	font-size:75%;
+	font-weight: normal;
+	margin-right: 5px;
+	margin-left: 175px;
+	margin-top: 30px;
+	font-family: Arial;
+
+}
+
+.blocChemin {
+	position: absolute;
+	left: 10px;
+	top: 110px;
+	margin-right: 5px;
+	font-weight: normal;
+	width: 600px;
+	height: 13px;
+	z-index: 1;
+}
+
+.blocLogin {
+	position: absolute;
+	z-index: 1;
+	color: #000000;
+	left: 530px;
+	top: 40px;
+	font-size:75%;
+	font-weight: bold;
+	width: 400px;
+  text-align: left;
+  height: 13px;
+}
+
+
+a.previousPage {
+	font-family: Arial;
+	font-size: 75%;
+}
+a.previousPage:hover {
+	font-family: Arial;
+	font-size: 75%;
+	text-decoration: none;
+}
+a.link {
+	font-family: Arial;
+	font-size: 75%;
+}
+a.link:hover {
+	font-family: Arial;
+	font-size: 75%;
+	text-decoration: none;
+}
+.currentPage {
+	font-family: Arial;
+	font-size: 75%;
+	font-weight: bold;
+	color: black;
+}
+.formEtoile {
+	font-weight: bold;
+	color: #007c54;
+}
+
+.blocBandeauHaut, .blocBandeauGauche, .blocBandeauHaut a {
+	position: absolute;
+	left: 170;
+	top: -2px;
+	z-index: 0;
+	background-repeat: no-repeat;
+	float: true;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: normal;
+	color: White;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.blocBandeauHaut, .blocBandeauHaut a {
+	width: 366px;
+	height: 20px;
+	background-image: url(img/bandeau2.gif);
+	text-align: left;
+}
+
+.blocBandeauHautContinu {
+	width: 100%;
+	height: 60;
+	background-repeat: repeat-x;
+	background-image: url(img/bandeaucontinu.gif);
+	left: 366;
+}
+
+.blocBandeauGauche    {
+	width: 170;
+	height: 60;
+	left: 0px;
+	background-image: url(img/logo.gif);
+	padding: 10px;
+
+}
+
+.blocBandeauGaucheAccueil {
+	position: absolute;
+	width: 170px;
+	height: 599px;
+	left: 0px;
+	background-image: url(img/gauche.jpg);
+	top: 0px;
+
+}
+
+.blocSelecteurLangue    {
+	position: absolute;
+	right: 18px;
+	top: 62px;
+	z-index: 3;
+	text-align: right;
+	width: 61px;
+	height: 19px;
+	
+
+
+
+}
+
+.blocSelecteurPortail    {
+	position: absolute;
+	z-index: 1;
+	right: 50;
+	top: 2;
+	font-family: Arial;
+	font-size: 75%;
+}
+
+.blocSelecteurOption {
+	position: absolute;
+	z-index: 1;
+	right: 50;
+	top: 30px;
+	width: 400px;
+	height: 20px;
+	text-align: right;
+
+
+}
+.blocSelecteurOption input {
+font-family: Arial;
+	font-size: 75%;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.blocSelecteurAide {
+	position: absolute;
+	font-family: Arial;
+	font-size: 75%;
+	z-index: 1;
+	right: 18;
+	top: 38px;
+	width: 150px;
+	height: 18px;
+text-align: right;
+
+
+
+
+
+}
+.blocSelecteurAide a {
+	color: #007C54;
+ text-decoration: underline;
+}
+.blocSelecteurAide a:hover {
+	text-decoration: none;
+	color: #007C54;
+}
+
+.blocSousTitreSite    {
+	position: absolute;
+	left: 530;
+	top: 5;
+	z-index: 1;
+	font-family: Arial; 
+	font-size:20px; 
+	font-style: normal; 
+	font-weight: normal; 
+	color: #007C54;
+}
+
+
+.centrerLabel {
+	float: left;
+	text-align: right;
+	width: 50%;
+	margin: 0;
+	padding: 0 0.5em 0 0;
+}
+
+.titreForm, .buttonsForm {
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 2px;
+	padding-left: 2px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.titreForm {
+	background-color: #B2D7CB;
+	height: 20px;
+}
+.buttonsForm {
+	text-align: center;
+	margin-top: 5px;
+}
+.buttonsForm input {
+	text-align: center;
+	margin-top: 5px;
+}
+
+fieldset {
+	margin-right: 25%;
+	margin-left: 25%;
+}
+
+.legende {	/*** Mise en forme des aides contextuelles ***/
+	font-style: italic;
+	color: #007C54;
+	background: transparent;
+	margin: 0;
+	padding: 0;
+}
+
+ul.blocListe li    {
+	list-style-position: outside;
+	list-style-type: disc;
+	padding-bottom: 10pt;
+}
+
+.blocCopyright    {
+	font-family: Arial;
+	font-size: 8pt;
+	text-align: center;
+}
+.blocSelecteurDate {
+	position: absolute;
+	z-index: 2;
+	right: 48px;
+	top: 62px;
+	width: 250px;
+	height: 4px;
+	font-family: Arial;
+	font-size: 75%;
+	font-style: normal;
+	font-weight: normal;
+	color: 007b54;
+	text-align: right;
+
+
+
+
+
+
+}
+.blocMenu {
+	position: absolute;
+	left: 0px;
+	top: 59px;
+	margin-right: 5px;
+	font-family: Arial;
+	font-size: 80%;
+	font-weight: normal;
+	height: 24px;
+	z-index: 1;
+	width: 100%;
+	background-image: url(img/bg_menu.gif);
+
+}
+font {
+	font: Arial;
+	color: #000000;
+}
+a {
+	font-family: Arial;
+
+}
+.marquee {
+	FONT-SIZE: 75%;
+	CURSOR: pointer;
+	FONT-FAMILY: Arial;
+	COLOR: #007C54;
+	border: 0px inset;
+	font-weight: bold;
+	text-decoration: none;
+}
+.marquee:hover {
+	FONT-SIZE: 75%;
+	CURSOR: pointer;
+	FONT-FAMILY: Arial;
+	COLOR: #007C54;
+	border: 0px inset;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.blocContenuInterieur {
+	font-size:75%;
+	font-family: Arial;
+	font-weight: normal;
+	margin-right: 10px;
+	margin-top: 40px;
+	text-align: justify;
+	position: absolute;
+	left: 0px;
+	top: 130px;
+	z-index: 0;
+	padding-left: 70px;
+	padding-right: 20px;
+	padding-top: 10px;
+	width: 90%;
+
+
+
+}
+.blocBandeauHaut, blocBandeauGauche, blocBandeauGaucheAccueil, blocBandeauHaut a {
+	position: absolute;
+	left: 169px;
+	top: 0px;
+	z-index: 0;
+	background-repeat: no-repeat;
+	float: true;
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: normal;
+	color: White;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.blocBandeauHaut, blocBandeauGaucheAccueil, blocBandeauHaut a {
+	width: 366px;
+	height: 60px;
+	background-image: url(img/bandeau2.gif);
+	text-align: left;
+}
+
+.blocBandeauHautContinu {
+	width: 100%;
+	height: 60;
+	background-repeat: repeat-x;
+	background-image: url(img/bandeaucontinu.gif);
+	left: 366;
+}
+
+.blocBandeauGauche    {
+	width: 170;
+	height: 60;
+	left: 0;
+	background-image: url(img/logo.gif);
+	top: 0px;
+}
+
+.blocBandeauGaucheAccueil {
+	position: absolute;
+	width: 170px;
+	height: 599px;
+	left: 0px;
+	background-image: url(img/gauche.jpg);
+	top: 0px;
+
+}
+.tableLabel {
+	float: left;
+	text-align: left;
+	width: 98%;
+	margin: 0em;
+	padding: 0.2em;
+	border: 1px solid #000000;
+	text-indent: 0pt;
+
+
+
+}
+label {
+	margin: 0.2em;
+	padding: 0.2em;
+	width: 10%;
+
+}
+.labelTableau1 {font-size:73%;	margin: 0.1em;	padding: 0.1em;	width: 3%;	text-align: center;	vertical-align: middle;	display: table;}
+.labelTableau2 {	font-size:73%;margin: 0.1em;	padding: 0.1em;	width: 10%;	text-align: center;	vertical-align: middle;	display: table;}
+.labelTableau3 {font-size:73%;	margin: 0.1em;	padding: 0.1em;	width: 12%;	text-align: center;	vertical-align: middle;	display: table;}
+.labelTableau4 {font-size:73%;	margin: 0.1em;	padding: 0.1em;	width: 15%;	text-align: center;	vertical-align: middle;	display: table;}
+.labelTableau5 {	font-size:73%;margin: 0.1em;	padding: 0.1em;	width: 10%;	text-align: center;	vertical-align: middle;	display: table;}
+.labelTableau6 {	font-size:73%;margin: 0.1em;	padding: 0.1em;	width: 11%;	text-align: center;	vertical-align: middle;	display: table;}
+.labelTableau7 {	font-size:73%;margin: 0.1em;	padding: 0.1em;	width: 15%;	text-align: center;	vertical-align: middle;	display: table;}
+.labelTableau8 {	font-size:73%;margin: 0.1em;	padding: 0.1em;	width: 13%;	text-align: center;	vertical-align: middle;	display: table;}
+
+
+.tableLabelTitre {
+	float: left;
+	text-align: left;
+	width: 98%;
+	margin: 0em;
+	padding: 0.2em 1em;
+	border: 1px solid #000000;
+	text-indent: 0pt;
+	background-color: #007c54;
+	font-weight: bold;
+	color: #FFFFFF;
+
+
+}
+.centrerLabelG {
+
+	float: left;
+	text-align: left;
+	width: 50%;
+	margin: 0;
+	padding: 0 0.5em 0 0;
+}
+.textePetitBold {
+
+	font-family: Arial;
+	text-align: center;
+	font-size: 80%;
+	font-style: normal;
+	font-weight: bold;
+	color: Black;
+}
+.table_link {
+color: #000000;
+text-decoration:underline;
+}
+.table_link:hover {
+color: #000000;
+font-weight:bold;
+text-decoration:underline;
+}
+
+.box {
+border:1px; 
+border-collapse: collapse;
+}
+.menuonglet {
+	font-family: Arial;
+	text-align: center;
+	font-size: 80%;
+	font-style: normal;
+	font-weight: bold;
+	padding-top:2px;
+	text-decoration:none;
+	display:block;
+	background-color:#ffffff;
+	color:#000000;
+	height:100%;
+	border-right:solid 1px #007c54;
+	border-collapse: collapse;
+}			
+
+
+
+.menuonglet_on {
+	font-family: Arial;
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 80%;
+	padding-top:2px;
+	text-decoration:none;
+	display:block;
+	background-color:#007c54;
+	color:#ffffff;
+	height:100%;
+	border-right:solid 1px #007c54;
+	border-collapse: collapse;
+}
+
+
+.menu a  {
+	font-family: Arial;
+	font-size: 80%;
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+	padding-top:2px;
+	text-decoration:none;
+	display:block;
+	background-color:#ffffff;
+	color:#000000;
+	height:100%;
+	border-right:solid 1px #007c54;
+	border-collapse: collapse;
+}
+.menu a:hover {
+	padding-top:2px;
+	height:100%;
+	background-color:#007c54;
+	color:#FFFFFF;
+}
+
+.menubackzonesensible {
+	height:50px;
+	width:100%;
+	z-index:-1;
+	background-image: url(img/ligne.gif);
+}

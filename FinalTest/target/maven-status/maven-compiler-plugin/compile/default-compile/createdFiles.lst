@@ -1,0 +1,4 @@
+util\HTMLFilter.class
+com\bnpp\arph\FilesManager\FileDeleteHandler.class
+util\CookieFilter.class
+com\bnpp\arph\FilesManager\FileUploadHandler.class
